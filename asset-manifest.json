@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/rick-and-morty-multiple-select/static/css/main.0e17d67d.css",
-    "main.js": "/rick-and-morty-multiple-select/static/js/main.2b003780.js",
+    "main.css": "/rick-and-morty-multiple-select/static/css/main.53a650f9.css",
+    "main.js": "/rick-and-morty-multiple-select/static/js/main.e0dff157.js",
     "static/js/453.0d91c927.chunk.js": "/rick-and-morty-multiple-select/static/js/453.0d91c927.chunk.js",
+    "static/media/ufo.png": "/rick-and-morty-multiple-select/static/media/ufo.ba70776bc0c5e9d1b9da.png",
     "index.html": "/rick-and-morty-multiple-select/index.html",
-    "main.0e17d67d.css.map": "/rick-and-morty-multiple-select/static/css/main.0e17d67d.css.map",
-    "main.2b003780.js.map": "/rick-and-morty-multiple-select/static/js/main.2b003780.js.map",
+    "main.53a650f9.css.map": "/rick-and-morty-multiple-select/static/css/main.53a650f9.css.map",
+    "main.e0dff157.js.map": "/rick-and-morty-multiple-select/static/js/main.e0dff157.js.map",
     "453.0d91c927.chunk.js.map": "/rick-and-morty-multiple-select/static/js/453.0d91c927.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e17d67d.css",
-    "static/js/main.2b003780.js"
+    "static/css/main.53a650f9.css",
+    "static/js/main.e0dff157.js"
   ]
 }
