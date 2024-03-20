@@ -44,4 +44,4 @@ const UFO = () => {
     );
 };
 
-export default UFO;
+export default React.memo(UFO);
