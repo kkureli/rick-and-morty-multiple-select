@@ -21,7 +21,7 @@ In project directory:
   - `assets`: Asset folder to store all images and icons.
   - `components`: Folder to store any common component that use through app
   - `views`: Folder that contains all application views.
-- ## `__test__`: Folder to store all tests
+
 
 ## Implementation Details
 
