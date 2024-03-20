@@ -4,20 +4,16 @@ import SelectedCharacter from "../selectedCharacter/selectedCharacter";
 import { Character } from "../../types/character.type";
 
 type Props = {
-  inputRef: React.RefObject<HTMLInputElement>;
   query: string;
   handleInputChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  handleKeyDown: (e: React.KeyboardEvent<HTMLInputElement>) => void;
   selectedCharacters: Character[];
   handleRemoveCharacter: (character: Character) => void;
 };
 
 const SearchInput = (props: Props) => {
   const {
-    inputRef,
     query,
     handleInputChange,
-    handleKeyDown,
     selectedCharacters,
     handleRemoveCharacter,
   } = props;
@@ -33,11 +29,9 @@ const SearchInput = (props: Props) => {
       ))}
       <input
         className="search-input"
-        ref={inputRef}
         type="text"
         value={query}
         onChange={handleInputChange}
-        onKeyDown={handleKeyDown}
         placeholder="Type to search..."
       />
     </div>

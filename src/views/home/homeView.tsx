@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, KeyboardEvent } from "react";
+import React, { useState, useEffect } from "react";
 import services from "../../api/services";
 import { Character } from "../../types/character.type";
 import SearchInput from "../../components/searchInput/searchInput";
@@ -13,7 +13,6 @@ const HomeView: React.FC = () => {
   const [selectedCharacters, setSelectedCharacters] = useState<Character[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     if (query.length > 0) {
@@ -42,27 +41,12 @@ const HomeView: React.FC = () => {
     );
   };
 
-  const handleKeyDown = (event: KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === "ArrowDown" && characters.length > 0) {
-      debugger;
-      // Handle down arrow key
-    } else if (event.key === "ArrowUp") {
-      debugger;
-      // Handle up arrow key
-    } else if (event.key === "Tab" || event.key === "Enter") {
-      debugger;
-      // Handle tab or enter key
-    }
-  };
-
   return (
     <Container>
       <SearchInput
         handleRemoveCharacter={handleRemoveCharacter}
         selectedCharacters={selectedCharacters}
         handleInputChange={handleInputChange}
-        handleKeyDown={handleKeyDown}
-        inputRef={inputRef}
         query={query}
       />
       {loading && <Loading />}
