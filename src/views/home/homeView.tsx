@@ -6,6 +6,7 @@ import Loading from "../../components/loading/loading";
 import Error from "../../components/error/error";
 import CharactersList from "../../components/charactersList/charactersList";
 import Container from "../../components/container/container";
+import UFO from "../../components/ufo/ufo";
 
 const HomeView: React.FC = () => {
   const [query, setQuery] = useState<string>("");
@@ -43,6 +44,7 @@ const HomeView: React.FC = () => {
 
   return (
     <Container>
+      <UFO />
       <SearchInput
         handleRemoveCharacter={handleRemoveCharacter}
         selectedCharacters={selectedCharacters}

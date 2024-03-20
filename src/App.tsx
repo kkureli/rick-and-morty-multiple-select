@@ -1,10 +1,10 @@
-import UFO from "./components/ufo/ufo";
+import Header from "./components/header/header";
 import HomeView from "./views/home/homeView";
 
 const App = (): JSX.Element => {
   return (
     <>
-      <UFO />
+      <Header />
       <HomeView />
     </>
   );
