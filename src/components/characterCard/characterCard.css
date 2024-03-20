@@ -1,0 +1,23 @@
+.character-card-container {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.character-card-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 8px;
+}
+
+.card-text-info-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  justify-content: space-around;
+}
+.cardCheckbox {
+  margin-right: 8px;
+  cursor: pointer;
+}
