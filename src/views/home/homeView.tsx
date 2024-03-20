@@ -7,6 +7,7 @@ import Error from "../../components/error/error";
 import CharactersList from "../../components/charactersList/charactersList";
 import Container from "../../components/container/container";
 import UFO from "../../components/ufo/ufo";
+import Video from "../../components/video/video";
 
 const HomeView: React.FC = () => {
   const [query, setQuery] = useState<string>("");
@@ -65,6 +66,7 @@ const HomeView: React.FC = () => {
           />
         )
       )}
+      <Video />
     </Container>
   );
 };

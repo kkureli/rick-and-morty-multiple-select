@@ -1,5 +1,4 @@
 import Header from "./components/header/header";
-import Video from "./components/video/video";
 import HomeView from "./views/home/homeView";
 
 const App = (): JSX.Element => {
@@ -7,7 +6,6 @@ const App = (): JSX.Element => {
     <>
       <Header />
       <HomeView />
-      <Video />
     </>
   );
 };
