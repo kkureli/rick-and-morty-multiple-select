@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rick-and-morty-multiple-select/static/css/main.0e17d67d.css",
+    "main.js": "/rick-and-morty-multiple-select/static/js/main.2b003780.js",
+    "static/js/453.0d91c927.chunk.js": "/rick-and-morty-multiple-select/static/js/453.0d91c927.chunk.js",
+    "index.html": "/rick-and-morty-multiple-select/index.html",
+    "main.0e17d67d.css.map": "/rick-and-morty-multiple-select/static/css/main.0e17d67d.css.map",
+    "main.2b003780.js.map": "/rick-and-morty-multiple-select/static/js/main.2b003780.js.map",
+    "453.0d91c927.chunk.js.map": "/rick-and-morty-multiple-select/static/js/453.0d91c927.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e17d67d.css",
+    "static/js/main.2b003780.js"
+  ]
+}
