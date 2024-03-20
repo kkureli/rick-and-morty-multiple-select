@@ -20,6 +20,7 @@ const CharactersList = (props: Props) => {
     query,
   } = props;
   const cardRefs = useRef<(HTMLDivElement | null)[]>([]);
+
   useEffect(() => {
     cardRefs.current = cardRefs.current.slice(0, characters.length);
   }, [characters]);
@@ -44,9 +45,6 @@ const CharactersList = (props: Props) => {
         if (index === characters.length - 1) {
           cardRefs.current[0]?.focus();
         }
-        break;
-      case "Delete":
-        handleRemoveCharacter(characters[index]);
         break;
       default:
         break;

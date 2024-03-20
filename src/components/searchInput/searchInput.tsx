@@ -19,6 +19,7 @@ const SearchInput = (props: Props) => {
   } = props;
 
   const selectedCardsRefs = useRef<(HTMLButtonElement | null)[]>([]);
+
   useEffect(() => {
     selectedCardsRefs.current = selectedCardsRefs.current.slice(
       0,
@@ -46,9 +47,6 @@ const SearchInput = (props: Props) => {
         if (index === selectedCharacters.length - 1) {
           selectedCardsRefs.current[0]?.focus();
         }
-        break;
-      case "Delete":
-        handleRemoveCharacter(selectedCharacters[index]);
         break;
       default:
         break;
