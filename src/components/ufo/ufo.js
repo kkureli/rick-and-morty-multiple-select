@@ -19,8 +19,8 @@ const UFO = () => {
 
     useEffect(() => {
         const moveUFO = () => {
-            const maxX = window.innerWidth - 100;
-            const maxY = window.innerHeight - 100;
+            const maxX = window.innerWidth - 200;
+            const maxY = window.innerHeight - 200;
 
             const newX = Math.random() * maxX;
             const newY = Math.random() * maxY;
