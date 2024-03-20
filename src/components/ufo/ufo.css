@@ -1,0 +1,26 @@
+.ufo {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transition: transform 0.5s ease; /* Hareket sırasında pürüzsüz geçiş */
+}
+
+.ufo:hover {
+  transform: scale(1.2) rotate(20deg); /* Üzerine gelindiğinde büyüt ve 20 derece döndür */
+}
+
+@keyframes rotateUFO {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.ufo.rotating {
+  animation: rotateUFO 3s linear infinite; /* 3 saniyede bir tam tur dönme animasyonu */
+}
