@@ -1,6 +1,7 @@
 {
   "name": "rick-and-morty-multi-select",
   "version": "0.1.0",
+  "homepage": "https://kkureli.github.io/rick-and-morty-multiple-select/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
