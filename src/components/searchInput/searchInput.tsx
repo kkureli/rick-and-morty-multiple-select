@@ -17,6 +17,7 @@ const SearchInput = (props: Props) => {
     selectedCharacters,
     handleRemoveCharacter,
   } = props;
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const selectedCardsRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
@@ -42,10 +43,13 @@ const SearchInput = (props: Props) => {
         if (index < selectedCharacters.length - 1) {
           selectedCardsRefs.current[index + 1]?.focus();
         }
+        if (index === selectedCharacters.length - 1) {
+          inputRef.current?.focus();
+        }
         break;
       case "Tab":
         if (index === selectedCharacters.length - 1) {
-          selectedCardsRefs.current[0]?.focus();
+          inputRef.current?.focus();
         }
         break;
       default:
@@ -67,6 +71,7 @@ const SearchInput = (props: Props) => {
         />
       ))}
       <input
+        ref={inputRef}
         className="search-input"
         type="text"
         value={query}
