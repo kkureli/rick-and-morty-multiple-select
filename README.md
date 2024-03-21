@@ -6,7 +6,7 @@ The project involves implementing a multi-select autocomplete component using Re
 
 ### Screenshots
 
-<img src="https://github.com/kkureli/rick-and-morty-multiple-select/assets/33238066/022cfa17-35e5-4f0b-86ce-5dce92925305"  width="700" height="550" />
+<img src="https://github.com/kkureli/rick-and-morty-multiple-select/assets/33238066/f7e4a809-9aa3-4067-8c2a-15a6e5856c0e"  width="800" height="550" />
 
 
 ### Installation
