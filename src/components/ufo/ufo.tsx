@@ -35,33 +35,41 @@ const UFO: React.FC = () => {
     pinkrick,
     pixelRick,
   ]);
+  const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
 
   useEffect(() => {
-    const moveUFO = () => {
-      const maxX = window.innerWidth - 200;
-      const maxY = window.innerHeight - 200;
-
-      const newX = Math.random() * maxX;
-      const newY = Math.random() * maxY;
-
-      setPosition({ x: newX, y: newY });
+    const updateMousePosition = (e: MouseEvent) => {
+      setPosition({ x: e.clientX, y: e.clientY });
     };
 
-    const intervalId = setInterval(moveUFO, 3000);
+    window.addEventListener("mousemove", updateMousePosition);
 
-    return () => clearInterval(intervalId);
+    return () => {
+      window.removeEventListener("mousemove", updateMousePosition);
+    };
   }, []);
 
-  const randomImage = images[Math.floor(Math.random() * images.length)];
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => {
+        const newIndex = (prevIndex + 1) % images.length;
+        return newIndex;
+      });
+    }, 5000);
+
+    return () => clearInterval(intervalId);
+  }, [images]);
+
+  const currentImage = images[currentImageIndex];
 
   return (
     <img
       className="ufo"
-      src={randomImage}
+      src={currentImage}
       alt="UFO"
       style={{ top: position.y, left: position.x, objectFit: "contain" }}
     />
   );
 };
 
-export default React.memo(UFO);
+export default UFO;

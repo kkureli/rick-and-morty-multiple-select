@@ -1,15 +1,16 @@
 .ufo {
   position: absolute;
-  width: 150px;
-  height: 150px;
+  width: 80px;
+  height: 80px;
   transition: transform 0.5s ease; /* Hareket sırasında pürüzsüz geçiş */
+  pointer-events: none; /* Tıklama olaylarını devre dışı bırak */
 }
 
-.ufo:hover {
-  transform: scale(1.2) rotate(20deg); /* Üzerine gelindiğinde büyüt ve 20 derece döndür */
-}
+/* .ufo:hover {
+  transform: scale(1.2) rotate(20deg);
+} */
 
-@keyframes rotateUFO {
+/* @keyframes rotateUFO {
   0% {
     transform: rotate(0deg);
   }
@@ -19,8 +20,8 @@
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
-.ufo.rotating {
-  animation: rotateUFO 3s linear infinite; /* 3 saniyede bir tam tur dönme animasyonu */
-}
+/* .ufo.rotating {
+  animation: rotateUFO 3s linear infinite; 
+} */
