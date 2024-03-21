@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/rick-and-morty-multiple-select/static/css/main.12b7305f.css",
-    "main.js": "/rick-and-morty-multiple-select/static/js/main.82516649.js",
+    "main.css": "/rick-and-morty-multiple-select/static/css/main.13fe7f96.css",
+    "main.js": "/rick-and-morty-multiple-select/static/js/main.c427f58a.js",
     "static/js/453.0d91c927.chunk.js": "/rick-and-morty-multiple-select/static/js/453.0d91c927.chunk.js",
     "static/media/yellow2.png": "/rick-and-morty-multiple-select/static/media/yellow2.bbe07479a55608e07d3a.png",
     "static/media/space.png": "/rick-and-morty-multiple-select/static/media/space.9a5f678557f5fa1c69a4.png",
@@ -18,12 +18,12 @@
     "static/media/dance.png": "/rick-and-morty-multiple-select/static/media/dance.bfbea4c1737ceee4f159.png",
     "static/media/pixelRick.png": "/rick-and-morty-multiple-select/static/media/pixelRick.86952cc1276d880d9cd6.png",
     "index.html": "/rick-and-morty-multiple-select/index.html",
-    "main.12b7305f.css.map": "/rick-and-morty-multiple-select/static/css/main.12b7305f.css.map",
-    "main.82516649.js.map": "/rick-and-morty-multiple-select/static/js/main.82516649.js.map",
+    "main.13fe7f96.css.map": "/rick-and-morty-multiple-select/static/css/main.13fe7f96.css.map",
+    "main.c427f58a.js.map": "/rick-and-morty-multiple-select/static/js/main.c427f58a.js.map",
     "453.0d91c927.chunk.js.map": "/rick-and-morty-multiple-select/static/js/453.0d91c927.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12b7305f.css",
-    "static/js/main.82516649.js"
+    "static/css/main.13fe7f96.css",
+    "static/js/main.c427f58a.js"
   ]
 }
