@@ -2,9 +2,9 @@
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
 }
-.header img {
+.header-logo-img {
   width: 350px;
   object-fit: contain;
 }

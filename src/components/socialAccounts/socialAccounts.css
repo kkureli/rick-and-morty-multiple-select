@@ -1,0 +1,12 @@
+.social-accounts-container {
+  display: flex;
+  align-items: center;
+}
+.linkedin-logo {
+  margin-right: 8px;
+  cursor: pointer;
+}
+.github-logo {
+  margin-right: 20px;
+  cursor: pointer;
+}
