@@ -1,4 +1,6 @@
 # Rick And Morty Multiple Select App
+### Case
+https://github.com/sahinkutlu/frontend-case/tree/main
 
 ### Project info
 
