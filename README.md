@@ -1,4 +1,7 @@
 # Rick And Morty Multiple Select App
+### Live
+https://kkureli.github.io/rick-and-morty-multiple-select/
+
 ### Case
 https://github.com/sahinkutlu/frontend-case/tree/main
 
